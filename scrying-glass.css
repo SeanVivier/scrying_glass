@@ -1,0 +1,59 @@
+#stat {
+	border:1px solid black;
+	max-width:1000px;
+	width:100%;
+}
+input {
+	width:50px;
+	color:red;
+	font-weight:bold;
+}
+textarea {
+	height:145px;
+	width:225px;
+	font-size:15px;
+	font-weight:bold;
+	position:relative;
+	left:10px;
+	top:5px;
+	background-color:lightgray;
+	font-family:"Nova Cut";
+}
+.column {
+	max-width:275px;
+	width:100%;
+	display:inline-block;
+	vertical-align:top;
+	margin:auto;
+	padding:5px;
+}
+select {
+	position:relative;
+	left:30px;
+	background-color:lightgray;
+        cursor:pointer;
+}
+option {
+        cursor:pointer;
+}
+button {
+	max-width:750px;
+	height:35px;
+	font-size:20px;
+	position:relative;
+	margin:15px;
+	width:75%;
+	font-weight:bold;
+	left:10%;
+        cursor:pointer;
+}
+.ping {
+	box-shadow:0 0 150px gold;
+}
+span, .column:last-of-type div:last-of-type h3, .column:nth-of-type(2) div:first-child h3 {
+	cursor:pointer;
+}
+h5 {
+	text-align:center;
+	margin:15px;
+}
